@@ -42,8 +42,16 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!--pico 2-->
 		<dependency>
 			<groupId>org.picocontainer</groupId>
+			<artifactId>picocontainer</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!--pico 3-->
+		<dependency>
+			<groupId>com.picocontainer</groupId>
 			<artifactId>picocontainer</artifactId>
 			<optional>true</optional>
 		</dependency>

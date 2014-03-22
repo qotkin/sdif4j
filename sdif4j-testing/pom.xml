@@ -31,6 +31,7 @@
 		<module>sdif4j-testing-cdi-war</module>
 
 		<module>sdif4j-testing-pico2</module>
+		<module>sdif4j-testing-pico3</module>
 	</modules>
 
 	<dependencyManagement>

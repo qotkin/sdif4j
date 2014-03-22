@@ -48,6 +48,11 @@
 		<spring.version>3.0.1.RELEASE</spring.version>
 
 		<pico2.version>2.14.3</pico2.version>
+		<!--NOTE: no public releases available-->
+		<!--to build this branch clone and
+			mvn install-->
+		<!-- https://github.com/picocontainer/picocontainer.git -->
+		<pico3.version>3.0-SNAPSHOT</pico3.version>
 
 		<testng.version>6.8.7</testng.version>
 	</properties>
@@ -149,6 +154,11 @@
 				<groupId>org.picocontainer</groupId>
 				<artifactId>picocontainer</artifactId>
 				<version>${pico2.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.picocontainer</groupId>
+				<artifactId>picocontainer</artifactId>
+				<version>${pico3.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
